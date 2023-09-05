@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import {ORDER_BY_ASC} from "../actions";
 
 export const orderByFilter = (arr, type ) => {

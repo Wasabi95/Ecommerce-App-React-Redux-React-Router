@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import FilterBar from "../../containers/FilterBar/FilterBar";
 import ProductList from "../../containers/ProductList/ProductList";

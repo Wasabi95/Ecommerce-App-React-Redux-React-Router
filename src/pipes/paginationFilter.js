@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import {store} from "../App";
 import {countItem} from "../actions";
 
