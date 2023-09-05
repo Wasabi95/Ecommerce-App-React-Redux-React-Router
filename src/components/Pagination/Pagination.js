@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import {connect} from "react-redux";
-import {goPage, nextPage, prevPage} from "../../actions";
 
 class Pagination extends Component {
 
@@ -119,11 +117,5 @@ class Pagination extends Component {
 }
 
 
-const mapStateToProps = (state) => {
-    return {
-        ...state.pagination,
-        totalItemsCount: state.shop.products.length,
-    }
-};
 
 export default Pagination;
